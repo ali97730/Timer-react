@@ -1,0 +1,77 @@
+.home {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+button {
+  height: 150px;
+  width: 150px;
+  border-radius: 999px;
+  border: 10px solid #271bd3;
+  transition: text 0.1s;
+}
+button:hover {
+  font-size: x-large;
+}
+
+.left_button > button {
+  background: linear-gradient(#4ffc2c, rgb(8, 158, 3));
+  font-size: 20px;
+  color: white;
+}
+
+.left_paused > button {
+  background: linear-gradient(yellow, rgb(253, 255, 141));
+  font-size: 20px;
+  color: green;
+}
+
+.right_button > button {
+  background: linear-gradient(#f08c8c, red);
+  font-size: 20px;
+  color: white;
+}
+
+.history__button > button {
+  border-radius: 10px;
+  border: 0ch;
+  width: 200px;
+  height: 40px;
+  transition: width 0.1s, height 0.1s;
+}
+.history__button > button > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+.history__button > button:hover {
+  width: 250px;
+  height: 50px;
+  font-size: x-large;
+}
+
+.clock > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #ffffff, #ff6471);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 200px;
+}
+.header > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 130px;
+}
